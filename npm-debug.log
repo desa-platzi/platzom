@@ -46,7 +46,7 @@
 18 silly publish      mocha: '^5.2.0' },
 18 silly publish   readme: '# Platzom\n\nPlatzom es un idioma inventado para el [Curso de Fundamentos de JavaScript](https://platzi.com/js) de [Platzi](https://platzi.com), el mejor lugar de educación online\n\n## Descripción del idioma\n\n- Si la palabra termina con "ar", se le quitan esas dos letras\n- Si la palabra inicia con Z, se le añade "pe" al final\n- Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio\n- Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra pero intercalando letras mayúsculas y minúsculas\n\n## Instalación\n\n```\nnpm install platzom\n```\n\n## Uso\n\n```\nimport platzom from \'platzom\'\n\nplatzom("Programar") // Program\nplatzom("Zorro") // Zorrope\nplatzom("Zarpar") // Zarppe\nplatzom("abecedario") // abece-dario\nplatzom("sometemos") // SoMeTeMoS\n```\n\n## Créditos\n- [Sacha Lifszyc](https://twitter.com/@slifszyc)\n\n## Licencia\n\n[MIT](https://opensource.org/licenses/MIT)',
 18 silly publish   readmeFilename: 'README.MD',
-18 silly publish   gitHead: 'af63ae1180a096a2e951e112160e6e6b4b527dd9',
+18 silly publish   gitHead: '61596d3f98260482cd90a48901beec47be62948a',
 18 silly publish   _id: '@desa-platzi/platzom@0.1.0',
 18 silly publish   _shasum: 'f53f4c8485424818734487637cbed5af7656ee03',
 18 silly publish   _from: '.' }
@@ -63,18 +63,18 @@
 29 silly publish uploading /home/econcept/.npm/@desa-platzi/platzom/0.1.0/package.tgz
 30 verbose request uri https://registry.npmjs.org/@desa-platzi%2fplatzom
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 5:56:52 PM
+32 info attempt registry request try #1 at 5:58:32 PM
 33 verbose request using bearer token for auth
-34 verbose request id ae654aa419af63a6
+34 verbose request id c68e8c9d7e74a0c9
 35 http request PUT https://registry.npmjs.org/@desa-platzi%2fplatzom
 36 http 403 https://registry.npmjs.org/@desa-platzi%2fplatzom
-37 verbose headers { date: 'Fri, 03 Aug 2018 22:56:53 GMT',
+37 verbose headers { date: 'Fri, 03 Aug 2018 22:58:33 GMT',
 37 verbose headers   'content-type': 'application/json',
 37 verbose headers   'transfer-encoding': 'chunked',
 37 verbose headers   connection: 'keep-alive',
 37 verbose headers   'set-cookie':
-37 verbose headers    [ '__cfduid=d2cb6c99f75bc50c2bf4d4aa72c83916a1533337012; expires=Sat, 03-Aug-19 22:56:52 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-37 verbose headers   'cf-ray': '444c61467cd4b56c-BOG',
+37 verbose headers    [ '__cfduid=daacb9aaef98da0868f40ebe411b6a5041533337112; expires=Sat, 03-Aug-19 22:58:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-ray': '444c63b87afdb554-BOG',
 37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 37 verbose headers   server: 'cloudflare',
 37 verbose headers   'content-encoding': 'gzip' }

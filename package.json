@@ -1,5 +1,5 @@
 {
-  "name": "@desa-platzi/platzom",
+  "name": "@desa-platzi/platzom-v1",
   "version": "0.1.0",
   "description": "Traductor de idioma platzom",
   "main": "dist/src/platzom.js",
